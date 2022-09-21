@@ -1,14 +1,14 @@
 //Set Output Pins here
-const char blower    = "D1";//Blower
-const char fuel      = "D2";//Fuel Injection
-const char spark     = "D3";//Spark
-const char runlight  = "D4";//Running Light
-const char faillight = "D5";//Failure Light
+const char blower    = "D2";//Blower
+const char fuel      = "D3";//Fuel Injection
+const char spark     = "D4";//Spark
+const char runlight  = "D5";//Running Light
+const char faillight = "D6";//Failure Light
 
 //Set Input Pins here
-const char cfh       = "D6";//Call for Heat
-const char fs        = "D7";//Flame Sensor
-const char rs        = "D8";//Reset Button
+const char cfh       = "D7";//Call for Heat
+const char fs        = "D8";//Flame Sensor
+const char rs        = "D9";//Reset Button
 
 //!!! DO NOT EDIT BELOW !!!
 //Working Variables
