@@ -54,23 +54,23 @@ void loop()
     digitalWrite(blower, LOW);
     Serial.write("Blower ON");
     
-    delay(20);
+    delay(2000);
     
     digitalWrite(fuel, LOW);
     Serial.write("Fuel ON");
     
-    delay(3);
+    delay(3000);
     
     digitalWrite(spark, LOW);
     Serial.write("Spark ON");
     
-    delay(3);
+    delay(3000);
     
     digitalWrite(spark, HIGH);
     Serial.write("Spark OFF");
     
     isrunning = "on";
-    delay(5);
+    delay(5000);
    }
    else
    {
@@ -82,7 +82,7 @@ void loop()
      digitalWrite(fuel, HIGH);
      Serial.write("Fuel OFF");
      
-     delay(30);
+     delay(30000);
      
      digitalWrite(blower, HIGH);
      Serial.write("Blower OFF");
@@ -105,7 +105,7 @@ void loop()
     Serial.write("No more call for heat, turning off !");
     digitalWrite(fuel, HIGH);
     Serial.write("Fuel OFF");
-    delay(60);
+    delay(60000);
     digitalWrite(blower, HIGH);
     Serial.write("Blower OFF");
     Serial.write("Heater stopped, going to idle state");
@@ -122,5 +122,5 @@ void loop()
    Serial.write("Failure reset, going back to idle state");
   }
  }
- delay(0.5);
+ delay(500);
 }
